@@ -1,0 +1,17 @@
+.unionback{
+    background-image: url("../images/Unitedflag.png");
+}
+
+.dixieback{
+    background-image: url("../images/confederate.jpg");
+}
+
+.retrato{
+    height: 5em;
+    width: 5em;
+}
+
+.contendedor{
+    display: flex;
+    flex-direction: column;
+}
