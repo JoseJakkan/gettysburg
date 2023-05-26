@@ -1,13 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tres En Raya Gettysburg</title>
-    <link rel="stylesheet" href="dist/css/style.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="dist/css/style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="opaco">
+        <div class="title">
+          <h1>Tic Tac Toe</h1>
+          <h2>GETTYSBURG</h2>
+        </div>
+
+        <div class="player">
+          <form class="center">
+            <p>Primer Jugador</p>
+            <label for="firstPlayer"> Nombre </label>
+            <input
+              id="GET-first"
+              type="text"
+              name="name"
+              placeholder="Ulysses S. Grant"
+            />
+            <label>Bando</label>
+            <div class="select">
+              <label for="union">Union</label>
+              <input
+                type="radio"
+                id="union"
+                name="bando"
+                value="union"
+                checked
+              />
+              <label for="dixie">Confederados</label>
+              <input type="radio" id="dixie" name="bando" value="dixie" />
+            </div>
+          </form>
+        </div>
+        <div class="player">
+          <form class="center">
+            <p>Segundo Jugador</p>
+            <label for="secondPlayer"> Nombre </label>
+            <input
+              id="GET-second"
+              type="text"
+              name="name"
+              placeholder="Robert E. Lee"
+            />
+            <label>Bando</label>
+            <div class="select">
+              <input type="radio" id="union" name="bando" value="union" />
+              <label for="union">Union</label>
+              <input
+                type="radio"
+                id="dixie"
+                name="bando"
+                value="dixie"
+                checked
+              />
+              <label for="dixie">Confederados</label>
+            </div>
+          </form>
+        </div>
+        <div id="tipoJuego">
+          <button>1 player vs 2 Player</button>
+          <button>1 player vs "IA"</button>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

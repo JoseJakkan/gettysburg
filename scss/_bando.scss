@@ -1,17 +1,42 @@
-.unionback{
-    background-image: url("../images/Unitedflag.png");
+.contendedor{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    outline: 1px solid black;
+    
+}
+
+.unionback{ background-image: url("/images/Unitedflag.png");
+    width: 40%;
+    height: 90vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    transform: scaleX(180deg);
+    outline: 1px solid black;
+    padding: 0px;
 }
 
 .dixieback{
-    background-image: url("../images/confederate.jpg");
-}
-
-.retrato{
-    height: 5em;
-    width: 5em;
-}
-
-.contendedor{
+    background-image: url("/images/confederate.jpg");
+    width: 40%;
+    height:90vh;
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: scaleX(180deg);
+    outline: 1px solid black;
+    padding: 0px;
+    
+}
+.retrato{
+    height: 50%;
+    width: 50%;
 }
