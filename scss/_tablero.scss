@@ -1,0 +1,67 @@
+#container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    outline: 1px solid black;
+    
+}
+
+
+
+
+.unionback{ background-image: url("/images/Unitedflag.png");
+    width: 23%;
+    height: 80vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: scaleX(180deg);
+    outline: 1px solid black;
+    padding: 0px;
+}
+
+.dixieback{
+    background-image: url("/images/confederate.jpg");
+    width: 23%;
+    height:80vh;
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: scaleX(180deg);
+    outline: 1px solid black;
+    padding: 0px;
+    
+}
+.retrato{
+    height: 50%;
+    width: 50%;
+}
+
+.tabla{
+    width: 53%;
+    height:80vh;
+    background-image: url("/images/field.jpg");
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+}
+
+#tablero{
+    display: grid;
+    height: 100%;
+    width: 100%;
+   grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+
+.casilla{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
