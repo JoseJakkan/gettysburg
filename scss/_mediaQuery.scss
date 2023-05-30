@@ -1,0 +1,79 @@
+@media only screen and (min-width: 768px){
+    .center{
+        flex-direction: row;
+        flex-wrap: wrap;
+    };
+ }
+
+ @media only screen and (min-width: 768px){
+
+    .cont{
+        flex-direction: row;
+        flex-wrap: wrap;
+    };
+ }
+
+ @media only screen and (min-width: 768px){
+    .unionback{background-image: url("../../images/Unitedflag.png");
+    width: 23%;
+    height: 80vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: scaleX(180deg);
+    outline: 1px solid black;
+    padding: 0px;} 
+ }
+
+ @media only screen and (min-width: 768px){
+    .dixieback{background-image: url("../../images/confederate.jpg");
+    width: 23%;
+    height:80vh;
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: scaleX(180deg);
+    outline: 1px solid black;
+    padding: 0px;}  
+ }
+
+ @media only screen and (min-width: 768px){
+    #container{
+        flex-direction: row;
+    }
+ }
+
+ @media only screen and (min-width: 768px){
+    .tabla{
+        width: 53%;
+    height:80vh;
+    background-image: url("../../images/field.jpg");
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    }
+ }
+
+ @media only screen and (min-width: 768px){
+    .flag{
+        display: none;
+    }
+ }
+
+ @media only screen and (min-width: 768px){
+    .uflag{
+        display: none;
+    }
+ }
+
+
+ @media only screen and (min-width: 768px){
+    .cflag{
+        display: none;
+    }
+ }

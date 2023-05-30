@@ -38,6 +38,14 @@
    
 }
 
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 .player{
     height: 60%;
     width: 40%;
@@ -45,7 +53,7 @@
     justify-content: center;
     align-items: center;
     color: white;
-    
+   
     
 }
 
@@ -53,7 +61,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: column wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .select{

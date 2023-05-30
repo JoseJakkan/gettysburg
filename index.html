@@ -10,60 +10,63 @@
   <body>
     <div class="main">
       <div class="opaco">
-        <div class="title">
+        <header class="title">
           <h1>Tic Tac Toe</h1>
           <h2>GETTYSBURG</h2>
-        </div>
-
-        <div class="player">
-          <form class="center">
-            <p>Primer Jugador</p>
-            <label for="firstPlayer"> Nombre </label>
-            <input
-              id="GET-first"
-              type="text"
-              name="name"
-              placeholder="Ulysses S. Grant"
-            />
-            <label>Bando</label>
-            <div class="select">
-              <label for="union">Union</label>
+        </header>
+        <div class="cont">
+          <div class="player">
+            <form class="center">
+              <p>Primer Jugador</p>
+              <label for="firstPlayer"> Nombre </label>
               <input
-                type="radio"
-                id="union"
-                name="bando"
-                value="union"
-                checked
+                id="GET-first"
+                type="text"
+                name="name"
+                placeholder="Ulysses S. Grant"
               />
-              <label for="dixie">Confederados</label>
-              <input type="radio" id="dixie" name="bando" value="dixie" />
-            </div>
-          </form>
+              <label>Bando</label>
+              <div class="select">
+                <label for="union">Union</label>
+                <input
+                  type="radio"
+                  id="union"
+                  name="bando"
+                  value="union"
+                  checked
+                />
+                <label for="dixie">Confederados</label>
+                <input type="radio" id="dixie" name="bando" value="dixie" />
+              </div>
+            </form>
+          </div>
         </div>
-        <div class="player">
-          <form class="center">
-            <p>Segundo Jugador</p>
-            <label for="secondPlayer"> Nombre </label>
-            <input
-              id="GET-second"
-              type="text"
-              name="name"
-              placeholder="Robert E. Lee"
-            />
-            <label>Bando</label>
-            <div class="select">
-              <input type="radio" id="union" name="bando" value="union" />
-              <label for="union">Union</label>
+        <div class="cont">
+          <div class="player">
+            <form class="center">
+              <p>Segundo Jugador</p>
+              <label for="secondPlayer"> Nombre </label>
               <input
-                type="radio"
-                id="dixie"
-                name="bando"
-                value="dixie"
-                checked
+                id="GET-second"
+                type="text"
+                name="name"
+                placeholder="Robert E. Lee"
               />
-              <label for="dixie">Confederados</label>
-            </div>
-          </form>
+              <label>Bando</label>
+              <div class="select">
+                <input type="radio" id="union" name="bando" value="union" />
+                <label for="union">Union</label>
+                <input
+                  type="radio"
+                  id="dixie"
+                  name="bando"
+                  value="dixie"
+                  checked
+                />
+                <label for="dixie">Confederados</label>
+              </div>
+            </form>
+          </div>
         </div>
         <div id="tipoJuego">
           <button>1 player vs 2 Player</button>
