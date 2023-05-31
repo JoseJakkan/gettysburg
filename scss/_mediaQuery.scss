@@ -1,3 +1,4 @@
+//Media Query Main
 @media only screen and (min-width: 768px){
     .center{
         flex-direction: row;
@@ -12,6 +13,8 @@
         flex-wrap: wrap;
     };
  }
+
+//media query tablero
 
  @media only screen and (min-width: 768px){
     .unionback{background-image: url("../../images/Unitedflag.png");
@@ -77,3 +80,34 @@
         display: none;
     }
  }
+
+ //media query ganadores
+
+ @media only screen and (min-width: 768px){
+   .presi{
+      display: flex;
+      height: 30%;
+      width: 30%;
+      justify-self: center;
+      
+  }
+ }
+ @media only screen and (min-width: 768px){
+  
+   .victoria{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+ 
+}
+
+@media only screen and (min-width: 768px){
+   .texto{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+}
