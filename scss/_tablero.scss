@@ -7,9 +7,6 @@
     
 }
 
-
-
-
 .unionback{ 
     display: none;
 }
@@ -78,3 +75,33 @@
 }
 
 
+
+.piezas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    width: 30%;
+    justify-self: baseline;
+}
+
+.pieza{
+    height: 100%;
+    width: 100%;
+    
+}
+
+.piz{
+    height: 100%;
+    width: 100%;
+}
+
+.figures{
+    height: 30%;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

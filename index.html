@@ -25,7 +25,7 @@
                 name="name"
                 placeholder="Ulysses S. Grant"
               />
-              <label>Bando</label>
+              <p>Bando</p>
               <div class="select">
                 <label for="union">Union</label>
                 <input
@@ -52,10 +52,12 @@
                 name="name"
                 placeholder="Robert E. Lee"
               />
-              <label>Bando</label>
+              <p>Bando</p>
               <div class="select">
-                <input type="radio" id="union" name="bando" value="union" />
                 <label for="union">Union</label>
+                <input type="radio" id="union" name="bando" value="union" />
+
+                <label for="dixie">Confederados</label>
                 <input
                   type="radio"
                   id="dixie"
@@ -63,7 +65,6 @@
                   value="dixie"
                   checked
                 />
-                <label for="dixie">Confederados</label>
               </div>
             </form>
           </div>
@@ -72,9 +73,11 @@
           <button>1 player vs 2 Player</button>
           <button>1 player vs "IA"</button>
         </div>
-        <a href="tablero.html" class="blanco">Tablero</a>
-        <a href="ganadorUnion.html" class="blanco">victoria únion</a>
-        <a href="gandoDixie.html">victoria dixie</a>
+        <div>
+          <a href="tablero.html" class="blanco">Tablero</a>
+          <a href="ganadorUnion.html" class="blanco">victoria únion</a>
+          <a href="gandoDixie.html">victoria dixie</a>
+        </div>
       </div>
     </div>
   </body>
