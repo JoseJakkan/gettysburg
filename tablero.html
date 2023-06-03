@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>tablero</title>
-    <link rel="stylesheet" href="dist/css/style.css" />
+    <link rel="stylesheet" href="/dist/css/style.css" />
   </head>
   <body>
     <div id="container">
-      <div class="contiene">
+      <div id="contieneTabla">
         <div class="unionback">
-          <h3>Jugador 1</h3>
+          <h3 class="jugador">Jugador 1</h3>
           <img src="./images/Ulysses.jpg" alt="" class="retrato" />
         </div>
         <div class="tabla">
@@ -32,11 +32,11 @@
           <div class="cflag"><p class="jugador">Jugador 2</p></div>
         </div>
         <div class="dixieback">
-          <h3>Jugador 2</h3>
+          <h3 class="jugador">Jugador 2</h3>
           <img src="./images/Robert_Edward_Lee.jpg" alt="" class="retrato" />
         </div>
       </div>
-      <div class="contiene">
+      <div id="contienePiezas">
         <div class="piezas">
           <div class="figures">
             <div class="pieza">
@@ -65,5 +65,6 @@
       </div>
       <!-- container -->
     </div>
+    <script src="main.js"></script>
   </body>
 </html>

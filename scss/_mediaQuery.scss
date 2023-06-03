@@ -1,3 +1,5 @@
+
+
 //Media Query Main
 @media only screen and (min-width: 768px){
    .player{ 
@@ -55,13 +57,37 @@
 
  @media only screen and (min-width: 768px){
     #container{
-        flex-direction: row;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
     }
  }
 
  @media only screen and (min-width: 768px){
+   #contieneTabla{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      
+  }
+ }
+
+
+ @media only screen and (min-width: 768px){
+   #contienePiezas{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      
+  }
+ }
+
+ @media only screen and (min-width: 768px){
     .tabla{
-        width: 53%;
+    width: 53%;
     height:80vh;
     background-image: url("../../images/field.jpg");
     background-size: 100% 100%; 
@@ -86,6 +112,13 @@
     .cflag{
         display: none;
     }
+ }
+ @media only screen and (min-width: 768px){
+    .figures{
+   flex-direction: row;
+
+}
+
  }
 
 

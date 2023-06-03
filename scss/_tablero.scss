@@ -1,19 +1,29 @@
+
 #container{
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     
     
 }
 
-.contiene{
-    width: 100vw;
-    height: 100vh;
+#contieneTabla{
+    width: 100%;
+    height: 60vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     
 }
+
+#contienePiezas{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
 
 .unionback{ 
     display: none;
@@ -30,7 +40,7 @@
 
 .tabla{
     width: 100%;
-    height:80vh;
+    height: 100%;
     background-image: url("../../images/field.jpg");
     background-size: 100% 100%; 
     background-repeat: no-repeat;
@@ -53,19 +63,21 @@
 .flag{
     display: flex;
     flex-direction: row;
+    height: 30%;
 }
 
+
 .jugador{
-    background-color: beige;
+    background-color: gray;
     color: black;
-    border-radius: 100%;
-    opacity: 40%;
+    
+    
 }
 
 .uflag{
    background-image: url("../../images/Unitedflag.png");
    width: 50%;
-   height: 5em;
+   height: 100%;
    background-size: cover;
    display: flex;
    justify-content: center;
@@ -75,22 +87,20 @@
 .cflag{
     background-image: url("../../images/confederate.jpg");
     width: 50%;
-   height: 5em;
+   height: 100%;
    background-size: cover;
    display: flex;
    justify-content: center;
    align-items: center;
 }
 
-
-
 .piezas{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 30%;
-    width: 30%;
+    height: 100%;
+    width: 100%;
     justify-self: baseline;
 }
 
@@ -106,10 +116,16 @@
 }
 
 .figures{
-    height: 30%;
+    height: 100%;
     width: 30%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.quotes{
+    width: 60%;
+    height: 100%;
+    background-color: darkseagreen;
 }
