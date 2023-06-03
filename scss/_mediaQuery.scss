@@ -1,5 +1,12 @@
 //Media Query Main
 @media only screen and (min-width: 768px){
+   .player{ 
+      width: 30%;
+   }
+
+}
+
+@media only screen and (min-width: 768px){
     .center{
         flex-direction: row;
         flex-wrap: wrap;
@@ -84,16 +91,19 @@
 
 
  //media query ganadores
+ @media only screen and (min-width: 768px){
+    .cont{
+   flex-direction: row;
+}
+ }
 
  @media only screen and (min-width: 768px){
-   .presi{
-      display: flex;
-      height: 30%;
-      width: 30%;
-      justify-self: center;
-      
+   .president{
+     width: 50%;
   }
+  
  }
+
  @media only screen and (min-width: 768px){
   
    .victoria{
