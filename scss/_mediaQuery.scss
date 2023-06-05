@@ -1,6 +1,10 @@
 
 
 //Media Query Main
+
+
+//media query tablero
+
 @media only screen and (min-width: 768px){
    .player{ 
       width: 30%;
@@ -22,8 +26,6 @@
         flex-wrap: wrap;
     };
  }
-
-//media query tablero
 
  @media only screen and (min-width: 768px){
     .unionback{background-image: url("../../images/Unitedflag.png");
@@ -95,7 +97,7 @@
     }
  }
 
- @media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px){
     .flag{
         display: none;
     }
@@ -112,7 +114,7 @@
     .cflag{
         display: none;
     }
- }
+ } 
  @media only screen and (min-width: 768px){
     .figures{
    flex-direction: row;
@@ -135,6 +137,15 @@
      width: 50%;
   }
   
+ }
+
+ @media only screen and (min-width: 768px){
+   .retrato{
+      height: 50%;
+      width: 50%;
+      display: flex;
+
+   }
  }
 
  @media only screen and (min-width: 768px){

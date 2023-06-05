@@ -11,7 +11,9 @@
     <div id="container">
       <div id="contieneTabla">
         <div class="unionback">
-          <h3 class="jugador">Jugador 1</h3>
+          <div class="jugador">
+            <p>Player 1: <span id="jugador1"></span></p>
+          </div>
           <img src="./images/Ulysses.jpg" alt="" class="retrato" />
         </div>
         <div class="tabla">
@@ -28,11 +30,17 @@
           </div>
         </div>
         <div class="flag">
-          <div class="uflag"><p class="jugador">Jugador 1</p></div>
-          <div class="cflag"><p class="jugador">Jugador 2</p></div>
+          <div class="uflag">
+            <div class="jugador"><h3 id="jugador1m" value=""></h3></div>
+          </div>
+          <div class="cflag">
+            <div class="jugador"><h3 id="jugador2m" value=""></h3></div>
+          </div>
         </div>
         <div class="dixieback">
-          <h3 class="jugador">Jugador 2</h3>
+          <div class="jugador">
+            <p>Player 1: <span id="jugador2"></span></p>
+          </div>
           <img src="./images/Robert_Edward_Lee.jpg" alt="" class="retrato" />
         </div>
       </div>
