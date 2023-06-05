@@ -27,9 +27,9 @@ URL del Proyecto</a>
 ## :wrench:Tecnologias Utilizadas
 
 <ul>
-<li><img src="/images/html-5.png" alt="">HTML5</li>
-<li<img src="/images/css.png" alt="">>CSS3</li>
-<li><img src="/images/icons8-sass-avatar-48.png" alt="">Sass</li>
+<li>HTML5</li>
+<li>CSS3</li>
+<li>Sass</li>
 </ul>
 
 ## :koala:Desarolladores del Proyecto
