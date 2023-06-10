@@ -27,35 +27,6 @@
     };
  }
 
- @media only screen and (min-width: 768px){
-    .unionback{background-image: url("../../images/Unitedflag.png");
-    width: 23%;
-    height: 80vh;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    transform: scaleX(180deg);
-    outline: 1px solid black;
-    padding: 0px;} 
- }
-
- @media only screen and (min-width: 768px){
-    .dixieback{background-image: url("../../images/confederate.jpg");
-    width: 23%;
-    height:80vh;
-    background-size: 100% 100%; 
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    transform: scaleX(180deg);
-    outline: 1px solid black;
-    padding: 0px;}  
- }
 
  @media only screen and (min-width: 768px){
     #container{
@@ -76,54 +47,22 @@
   }
  }
 
-
  @media only screen and (min-width: 768px){
-   #contienePiezas{
-      width: 100%;
-      height: 100%;
-      display: flex;
-      flex-direction: row;
-      
-  }
+   .flag{
+      height: 17vh;
+   }
  }
+
 
  @media only screen and (min-width: 768px){
     .tabla{
-    width: 53%;
+    width: 100%;
     height:80vh;
     background-image: url("../../images/field.jpg");
     background-size: 100% 100%; 
     background-repeat: no-repeat;
     }
  }
-
-@media only screen and (min-width: 768px){
-    .flag{
-        display: none;
-    }
- }
-
- @media only screen and (min-width: 768px){
-    .uflag{
-        display: none;
-    }
- }
-
-
- @media only screen and (min-width: 768px){
-    .cflag{
-        display: none;
-    }
- } 
- @media only screen and (min-width: 768px){
-    .figures{
-   flex-direction: row;
-
-}
-
- }
-
-
 
  //media query ganadores
  @media only screen and (min-width: 768px){
@@ -137,15 +76,6 @@
      width: 50%;
   }
   
- }
-
- @media only screen and (min-width: 768px){
-   .retrato{
-      height: 50%;
-      width: 50%;
-      display: flex;
-
-   }
  }
 
  @media only screen and (min-width: 768px){
