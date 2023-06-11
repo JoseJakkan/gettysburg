@@ -24,108 +24,11 @@ for (const celda of cuadricula) {
     }
 
     turno = !turno;
-    // victory();
-    victoria();
+    victory();
   });
 }
 
-let full = 9;
-let i = 0;
-let j = 0;
-const victoria = () => {
-  //filas
-  for (let j = 0; j < cuadricula.length; j++) {
-    if (
-      cuadricula[j].classList.contains("union") &&
-      cuadricula[j + 1].classList.contains("union") &&
-      cuadricula[j + 2].classList.contains("union")
-    ) {
-      const callback = () => {
-        window.location.assign("ganadorUnion.html");
-      };
-      setTimeout(callback, 2000);
-    } else if (
-      cuadricula[j].classList.contains("dixie") &&
-      cuadricula[j + 1].classList.contains("dixie") &&
-      cuadricula[j + 2].classList.contains("dixie")
-    ) {
-      const callback = () => {
-        window.location.assign("ganadorDixie.html");
-      };
-      setTimeout(callback, 2000);
-    }
-  }
-
-  //columnas
-
-  for (let j = 0; j < cuadricula.length; j++) {
-    if (
-      cuadricula[j].classList.contains("union") &&
-      cuadricula[j + 3].classList.contains("union") &&
-      cuadricula[j + 6].classList.contains("union")
-    ) {
-      const callback = () => {
-        window.location.assign("ganadorUnion.html");
-      };
-      setTimeout(callback, 2000);
-    } else if (
-      cuadricula[j].classList.contains("dixie") &&
-      cuadricula[j + 3].classList.contains("dixie") &&
-      cuadricula[j + 6].classList.contains("dixie")
-    ) {
-      const callback = () => {
-        window.location.assign("ganadorDixie.html");
-      };
-      setTimeout(callback, 2000);
-    }
-  }
-
-  //diagonal 1
-
-  if (
-    cuadricula[j].classList.contains("union") &&
-    cuadricula[j + 4].classList.contains("union") &&
-    cuadricula[j + 8].classList.contains("union")
-  ) {
-    const callback = () => {
-      window.location.assign("ganadorUnion.html");
-    };
-    setTimeout(callback, 2000);
-  } else if (
-    cuadricula[j].classList.contains("dixie") &&
-    cuadricula[j + 4].classList.contains("dixie") &&
-    cuadricula[j + 8].classList.contains("dixie")
-  ) {
-    const callback = () => {
-      window.location.assign("ganadorDixie.html");
-    };
-    setTimeout(callback, 2000);
-  }
-
-  //diagonal 2
-
-  if (
-    cuadricula[j].classList.contains("union") &&
-    cuadricula[j + 2].classList.contains("union") &&
-    cuadricula[j + 4].classList.contains("union")
-  ) {
-    const callback = () => {
-      window.location.assign("ganadorUnion.html");
-    };
-    setTimeout(callback, 2000);
-  } else if (
-    cuadricula[j].classList.contains("dixie") &&
-    cuadricula[j + 2].classList.contains("dixie") &&
-    cuadricula[j + 4].classList.contains("dixie")
-  ) {
-    const callback = () => {
-      window.location.assign("ganadorDixie.html");
-    };
-    setTimeout(callback, 2000);
-  }
-};
-
-/* const victory = () => {
+const victory = () => {
   //Fila 1
   if (
     cuadricula[0].classList.contains("union") &&
@@ -243,4 +146,103 @@ const victoria = () => {
 
   console.log(cuadricula[0].getElementsByTagName("img"));
 };
- */
+
+//Intento de crear una funcion que compruebe los resultados
+//automaticamente e independientemente del tamaño del tablero.
+//Inconclusa.
+
+/* let full = cuadricula.length;
+
+let j = 0;
+const victoria = () => {
+  //filas
+  for (let j = 0; j < cuadricula.length; j++) {
+    if (
+      cuadricula[j].classList.contains("union") &&
+      cuadricula[j + 1].classList.contains("union") &&
+      cuadricula[j + 2].classList.contains("union")
+    ) {
+      const callback = () => {
+        window.location.assign("ganadorUnion.html");
+      };
+      setTimeout(callback, 2000);
+    } else if (
+      cuadricula[j].classList.contains("dixie") &&
+      cuadricula[j + 1].classList.contains("dixie") &&
+      cuadricula[j + 2].classList.contains("dixie")
+    ) {
+      const callback = () => {
+        window.location.assign("ganadorDixie.html");
+      };
+      setTimeout(callback, 2000);
+    }
+  }
+
+  //columnas
+
+  for (let j = 0; j < cuadricula.length; j++) {
+    if (
+      cuadricula[j].classList.contains("union") &&
+      cuadricula[j + 3].classList.contains("union") &&
+      cuadricula[j + 6].classList.contains("union")
+    ) {
+      const callback = () => {
+        window.location.assign("ganadorUnion.html");
+      };
+      setTimeout(callback, 2000);
+    } else if (
+      cuadricula[j].classList.contains("dixie") &&
+      cuadricula[j + 3].classList.contains("dixie") &&
+      cuadricula[j + 6].classList.contains("dixie")
+    ) {
+      const callback = () => {
+        window.location.assign("ganadorDixie.html");
+      };
+      setTimeout(callback, 2000);
+    }
+  }
+
+  //diagonal 1
+
+  if (
+    cuadricula[j].classList.contains("union") &&
+    cuadricula[j + 4].classList.contains("union") &&
+    cuadricula[j + 8].classList.contains("union")
+  ) {
+    const callback = () => {
+      window.location.assign("ganadorUnion.html");
+    };
+    setTimeout(callback, 2000);
+  } else if (
+    cuadricula[j].classList.contains("dixie") &&
+    cuadricula[j + 4].classList.contains("dixie") &&
+    cuadricula[j + 8].classList.contains("dixie")
+  ) {
+    const callback = () => {
+      window.location.assign("ganadorDixie.html");
+    };
+    setTimeout(callback, 2000);
+  }
+
+  //diagonal 2
+
+  if (
+    cuadricula[j].classList.contains("union") &&
+    cuadricula[j + 2].classList.contains("union") &&
+    cuadricula[j + 4].classList.contains("union")
+  ) {
+    const callback = () => {
+      window.location.assign("ganadorUnion.html");
+    };
+    setTimeout(callback, 2000);
+  } else if (
+    cuadricula[j].classList.contains("dixie") &&
+    cuadricula[j + 2].classList.contains("dixie") &&
+    cuadricula[j + 4].classList.contains("dixie")
+  ) {
+    const callback = () => {
+      window.location.assign("ganadorDixie.html");
+    };
+    setTimeout(callback, 2000);
+  }
+}; */

@@ -9,11 +9,12 @@ const jugador = {
     name: "Robert E. Lee",
     side: "Dixie",
   },
+  
 };
 
 //Storage
 
-document.getElementById("start").addEventListener("click", () => {
+document.getElementById("start1").addEventListener("click", () => {
   let user1 = document.getElementById("getFirst");
 
   let user1value = user1.value;
@@ -22,8 +23,11 @@ document.getElementById("start").addEventListener("click", () => {
 
   let user2value = user2.value;
 
-  if (user1value != "" && user2value != "") {
+  if (user1value != "") {
     jugador.player1.name = user1value;
+  }
+
+  if (user2value != "") {
     jugador.player2.name = user2value;
   }
 
@@ -31,5 +35,3 @@ document.getElementById("start").addEventListener("click", () => {
 
   window.location.assign("tablero.html");
 });
-
-//

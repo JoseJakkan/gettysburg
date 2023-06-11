@@ -13,9 +13,8 @@
 
 ## :blue_book:Descripcion del proyecto
 
-Por el momento el proyecto es la primera parte de un proyecto mayor de juego de Tres en raya.
-Esta es la parte grafica el proyecto, que consta de cinco html.
-La pagina principal donde se eligira el nombre de jugador y el bando con el que jugara, el tablero donde se veran los diferentes bandos, el tablero y las fichas disponibles y tres pantallas de find de partida, una de victoria de la Union, otra de victoria de los Confederaros y una de Empate.
+Juego de tres en raya simple de un jugador contra otro, realizado con JavaScript. La tematica es la batalla de Gettysburg durante la guerra civil americana y el aspecto grafico sigue esta linea.
+El juego recoge los nombres de los jugadores y alerna la posicion de fichas por turnos, determinando un ganador cuando se consigue poner tres fichas seguidas del mismo jugador, llevando a un pantalla de ganador o a una de empate si nadie a conseguido la victoria.
 
 ## Deploy
 
@@ -30,6 +29,7 @@ URL del Proyecto</a>
 <li>HTML5</li>
 <li>CSS3</li>
 <li>Sass</li>
+<li>JavaScript</li>
 </ul>
 
 ## :koala:Desarolladores del Proyecto
@@ -40,7 +40,8 @@ Estudiante de GeeksHubs Academy https://geekshubsacademy.com/
 
 ## :construction:Futuras Mejoras
 
-Al ser solo la parte parcial del proyecto este esta aun sin funcionalidades y se puede considerar solo una maquetacion.
+Se ha intentado crear una funcion que compruebe los resultados automaticamente e independientemente del tamaño del tablero para poder crear partidas de tableros 4x4, 5x5, 6x6 o lo que se quisiera, pero no se logro terminar.
+Esta inconclusa y comentada al final del codigo para retomar el proyecto en un futuro.
 
 ## :blue_book: Recursos utilizdos y documentacion
 
