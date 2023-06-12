@@ -1,3 +1,3 @@
-let user = JSON.parse(sessionStorage.getItem("player1Key"));
+let jugador = JSON.parse(sessionStorage.getItem(PLAYER1_KEY));
 
-document.getElementById("ganador2").innerHTML = user.player2.name;
+document.getElementById("ganador2").innerHTML = jugador.winner;

@@ -4,12 +4,13 @@ const jugador = {
   player1: {
     name: "Ulysses S. Grant",
     side: "Union",
+
   },
   player2: {
     name: "Robert E. Lee",
     side: "Dixie",
   },
-  
+  winner: null
 };
 
 //Storage
