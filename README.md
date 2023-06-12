@@ -20,7 +20,7 @@ El juego recoge los nombres de los jugadores y alerna la posicion de fichas por 
 
 <div align:"center">
 <a href="https://josejakkan.github.io/gettysburg/">Proyecto</a>
-URL del Proyecto</a>
+</a>
 </div>
 
 ## :wrench:Tecnologias Utilizadas
