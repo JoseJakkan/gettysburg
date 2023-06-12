@@ -45,6 +45,6 @@ Esta inconclusa y comentada al final del codigo para retomar el proyecto en un f
 
 ## :blue_book: Recursos utilizdos y documentacion
 
-<a href="https://www.flaticon.es/iconos-gratis/html-5" title="html 5 iconos">Html 5 and CSS iconos creados por Freepik - Flaticon</a>
-<a target="_blank" href="https://icons8.com/icon/vEiU8UeAmv0x/sass-avatar">Sass Avatar</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
-<a target="_blank" href="https://www.w3schools.com/html/">3Wschools</a>
+<li><a href="https://www.flaticon.es/iconos-gratis/html-5" title="html 5 iconos">Html 5 and CSS iconos creados por Freepik - Flaticon</a></li>
+<li><a target="_blank" href="https://icons8.com/icon/vEiU8UeAmv0x/sass-avatar">Sass Avatar</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></li>
+<li><a target="_blank" href="https://www.w3schools.com/html/">3Wschools</a></li>
