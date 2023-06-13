@@ -15,18 +15,26 @@ for (const celda of cuadricula) {
   celda.addEventListener("click", () => {
     if (turno) {
       if (!celda.classList.contains("dixie")) {
-        document.getElementsByTagName("h3")[0].classList.remove("color2");
-        document.getElementsByTagName("h3")[1].classList.remove("color1");
-        document.getElementsByTagName("h3")[0].classList.add("color1");
-        document.getElementsByTagName("h3")[1].classList.add("color2");
+        document
+          .getElementsByClassName("jugador")[0]
+          .classList.remove("color2");
+        document
+          .getElementsByClassName("jugador")[1]
+          .classList.remove("color1");
+        document.getElementsByClassName("jugador")[0].classList.add("color1");
+        document.getElementsByClassName("jugador")[1].classList.add("color2");
         celda.classList.add("union");
       }
     } else {
       if (!celda.classList.contains("union")) {
-        document.getElementsByTagName("h3")[0].classList.remove("color1");
-        document.getElementsByTagName("h3")[1].classList.remove("color2");
-        document.getElementsByTagName("h3")[0].classList.add("color2");
-        document.getElementsByTagName("h3")[1].classList.add("color1");
+        document
+          .getElementsByClassName("jugador")[0]
+          .classList.remove("color1");
+        document
+          .getElementsByClassName("jugador")[1]
+          .classList.remove("color2");
+        document.getElementsByClassName("jugador")[0].classList.add("color2");
+        document.getElementsByClassName("jugador")[1].classList.add("color1");
         celda.classList.add("dixie");
       }
     }
