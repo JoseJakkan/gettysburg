@@ -20,7 +20,7 @@ El juego recoge los nombres de los jugadores y alerna la posicion de fichas por 
 
 <div align:"center">
 <a href="https://josejakkan.github.io/gettysburg/">Proyecto</a>
-URL del Proyecto</a>
+</a>
 </div>
 
 ## :wrench:Tecnologias Utilizadas
@@ -45,6 +45,4 @@ Esta inconclusa y comentada al final del codigo para retomar el proyecto en un f
 
 ## :blue_book: Recursos utilizdos y documentacion
 
-<a href="https://www.flaticon.es/iconos-gratis/html-5" title="html 5 iconos">Html 5 and CSS iconos creados por Freepik - Flaticon</a>
-<a target="_blank" href="https://icons8.com/icon/vEiU8UeAmv0x/sass-avatar">Sass Avatar</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
-<a target="_blank" href="https://www.w3schools.com/html/">3Wschools</a>
+<li><a target="_blank" href="https://www.w3schools.com/html/">3Wschools</a></li>
