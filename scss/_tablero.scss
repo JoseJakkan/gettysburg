@@ -42,7 +42,17 @@
 }
 
 
-.jugador{
+#turno1{
+    background-color: blue;
+    color: black;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#turno2{
     background-color: gray;
     color: black;
     width: 50%;
@@ -51,6 +61,7 @@
     justify-content: center;
     align-items: center;
 }
+
 
 .uflag{
    background-image: url("../../images/Unitedflag.png");
