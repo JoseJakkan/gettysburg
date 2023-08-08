@@ -35,7 +35,7 @@ El juego recoge los nombres de los jugadores y alerna la posicion de fichas por 
 ## :koala:Desarolladores del Proyecto
 
 Jose Antonio Lopez
-Estudiante de GeeksHubs Academy https://geekshubsacademy.com/
+
 :e-mail: lopez.joseantonio82@gmail.com
 
 ## :construction:Futuras Mejoras
